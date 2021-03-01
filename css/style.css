@@ -90,3 +90,13 @@
     font-size: 33px;
     font-style:oblique;
 }
+
+.circle{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background-color: #ff66a7;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+}
