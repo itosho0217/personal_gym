@@ -92,11 +92,8 @@
 }
 
 .circle{
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    background-color: #ff66a7;
-    border-radius: 50%;
-    color: #fff;
-    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
