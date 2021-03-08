@@ -41,6 +41,7 @@
 .back_ground{
     background-image: url(../img/gym-background.png);
     background-size: 100% auto;
+    height: 820px;
     background-repeat: no-repeat;
    
 }
@@ -96,16 +97,15 @@
     writing-mode: vertical-rl;
     color: #ff66a7;
     display: inline-block;
-    margin-right: 200px;
+    margin-right: 150px;
     position: relative;
-    margin-bottom: 300px;
+    top: -500px;
     text-align: left;
     transform: rotate(10deg);
 }
 
 .text_6_right{
     text-align: right;
-    margin-bottom: 200px;
 }
 
 .circle{
@@ -124,4 +124,20 @@
     border-radius: 50px;
     margin-left: 200px;
     background: linear-gradient(to right,#ffcc00,#ff66a7);
+}
+
+/* section2 */
+.back_ground_bottom{
+    background-image: url(../img/gym-template-bottom.png);
+    background-size: 100% auto;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.text_7{
+    text-align: center;
+    position: relative;
+    top: -30px;
+    font-size: 50px;
+    color: #ff66a7;
 }
