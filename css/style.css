@@ -35,20 +35,21 @@
 .top{
     background-color:#f6f7f9;
     width: 100%;
-    height: 500px;
+    height: auto;
 }
 
-.english_logo{
-    font-size: 70px;
-    font-family: "Southpaw";
-    margin-left: 80px;
-    transform: rotate(-8deg);
-    color:#e9eaec;
-    z-index: 1;
+.back_ground{
+    background-image: url(../img/gym-background.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+   
 }
+
 
 .text_1{
+    padding-top: 200px;
     margin-left: 228px;
+    margin-bottom: 0;
     z-index: auto;
     color:#ff66a7;
     font-size: 42px;
@@ -56,11 +57,12 @@
 
 .text_2{
     margin-left: 228px;
+    margin-bottom: 0;
     z-index: auto;
     font-size: 90px;
     font-weight: 600;
     color: #f6c315;
-    background: -webkit-linear-gradient(0deg,#f6c315,#ff67a7);
+    background: linear-gradient(to right,#ffcc00,#ff66a7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -90,10 +92,26 @@
     font-style:oblique;
 }
 
+.text_6{
+    writing-mode: vertical-rl;
+    color: #ff66a7;
+    display: inline-block;
+    margin-right: 200px;
+    position: relative;
+    margin-bottom: 300px;
+    text-align: left;
+    transform: rotate(10deg);
+}
+
+.text_6_right{
+    text-align: right;
+    margin-bottom: 200px;
+}
+
 .circle{
     width: 170px;
     height: 170px;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
 .button{
