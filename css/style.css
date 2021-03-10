@@ -41,7 +41,7 @@
 .back_ground{
     background-image: url(../img/gym-background.png);
     background-size: 100% auto;
-    height: 820px;
+    height: 800px;
     background-repeat: no-repeat;
    
 }
@@ -128,11 +128,22 @@
 
 /* section2 */
 .back_ground_bottom{
-    background-image: url(../img/gym-template-bottom.png);
+    background-image: url(../img/gym-template-bottm.png);
     background-size: 100% auto;
-    height: 400px;
+    height: 600px;
     background-repeat: no-repeat;
 }
+
+.gold{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+
+
 
 .text_7{
     text-align: center;
@@ -140,4 +151,19 @@
     top: -30px;
     font-size: 50px;
     color: #ff66a7;
+    transform: rotate(-10deg);
+}
+
+.text_8{
+    text-align: center;
+    font-size: 43px;
+    color: #5d5d5d;
+}
+
+.text_9{
+    position: relative;
+    margin-left: 470px;
+    margin-top: 100px;
+    color: #fefefe;
+    font-size: 20px;
 }
